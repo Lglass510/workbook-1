@@ -1,5 +1,7 @@
 package com.pluralsight;
 
+import java.util.Scanner;
+
 public class MathApp {
     public static void main(String[] args) {
 
@@ -39,9 +41,44 @@ public class MathApp {
 
         double distance = Math.sqrt(Math.pow(pointC - pointA,2) + Math.pow(pointD - pointB,2));
         System.out.println("Distance equals " + distance);
+
+
+
+
     }
 
 
 
 
+
+    public class PetGreeting {
+        public static void main(String[] args) {
+            Scanner input = new Scanner(System.in);
+
+            System.out.println("What's your name?");
+            String name = input.nextLine();
+
+            System.out.println("How many pets do you have?");
+            int pets = input.nextInt();
+
+            System.out.println("Hi " + name + "! You have " + pets + "pets!");
+        }
+    }
+
+
+
 }
+
+   import java.util.Scanner;
+
+    public class BasicCalculator {
+        public static void main(String[] args) {
+
+            Scanner input = new Scanner()
+
+
+
+        }
+    }
+
+
